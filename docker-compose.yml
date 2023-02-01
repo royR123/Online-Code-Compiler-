@@ -1,0 +1,12 @@
+version: '3'
+services:
+  executor:
+    build: 
+      context: './backend/coderun'
+      dockerFile: DockerFile
+    container_name: 
+      - coderun-container
+    image: 
+      - coderun-image
+    volumes:
+      - ./backend/codes:/app
