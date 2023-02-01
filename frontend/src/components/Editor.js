@@ -1,4 +1,3 @@
-import { typographyClasses } from '@mui/material';
 import { useState } from 'react';
 import axios from '../utils/axios';
 import './Editor.css'
