@@ -1,0 +1,38 @@
+.cont{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.wrapper1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+#text-area-code{
+    
+    margin: auto;
+    width: 80vw;
+}
+#btns{
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+}
+#select-menu{
+    height: 40px;
+    border-radius: 5px;
+}
+#btn-for-run{
+    cursor: pointer;
+    width: 6rem;
+    height: 40px;
+    color: green;
+    border-radius: 5px;
+    font-weight: bold;
+    border: 3px solid green;
+    background-color: rgb(210, 250, 150);
+}
+#btn-for-run:active{
+    border-radius: 15px;
+}
