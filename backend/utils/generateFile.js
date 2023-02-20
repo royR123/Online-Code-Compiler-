@@ -3,7 +3,7 @@ const path = require('path');
 const { v4 : uuidv4 } = require('uuid')
 
 const generateFile = async ({code , language , inputs }) => {
-    console.log('inside generate file');
+    console.log('inside generate file function');
     try {
         let filename = uuidv4();
         if(language === 'C++'){
